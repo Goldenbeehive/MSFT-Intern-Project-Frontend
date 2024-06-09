@@ -1,0 +1,481 @@
+ 
+
+
+
+
+body{
+
+}
+
+
+
+
+/* 
+body
+{
+  width: 90%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+} */
+
+.all{
+  background-color: #144272;
+  
+  }
+
+  .top{
+    width: 100%;
+    display: flex;
+ justify-content: space-between;
+  }
+
+.center {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+  .bottom{
+  
+    display: flex;
+    flex-direction: row;
+    /* height:  0px; */
+    margin-left: 5%;
+  }
+  
+  .Company_Name{
+
+    color: #ffffff;
+    /* text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    line-height: 90px; 
+    padding: 7px 20px;
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    border: 4px;
+    border-color: darkred; */
+    border: 2px solid #ffffff;
+    margin-right: 6px;
+    border-radius: 100px;
+    padding: 7px 20px;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .Charts_buttons{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    
+    
+  }
+  
+  .button_X_Chart {
+  
+    background-image: linear-gradient(#2d6bbc, #7fb9ed);
+    border-radius: 100px;
+    box-shadow: rgba(13, 89, 133, 0.2) 0 -25px 18px -14px inset,rgba(13, 89, 133, 0.2) 0 1px 2px,rgba(13, 89, 133, 0.2) 0 2px 4px,rgba(13, 89, 133, 0.2) 0 4px 8px,rgba(13, 89, 133, 0.2) 0 8px 16px,rgba(13, 89, 133, 0.2) 0 16px 32px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    /* padding: 10px 20px; */
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 30px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding: 10px;
+    
+  
+    /* margin: 11px; */
+    height: 100%;
+
+  }
+  
+
+  
+  .button_X_Chart:hover {
+    box-shadow: 0 3px 10px rgba(4, 91, 240, 0.2)inset;
+    /* box-shadow: rgba(0, 107, 169, 0.2) 0 -25px 18px -14px inset,rgba(0, 110, 174, 0.2) 0 1px 2px,rgba(0, 109, 218, 0.25) 0 2px 4px,rgba(8, 19, 230, 0.25) 0 4px 8px,rgba(8, 5, 180, 0.25) 1 16px 32px,rgba(19, 62, 235, 0.25) 0 16px 32px; */
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+  .left_most_button{
+
+    height: 100%;
+    margin-right: 10px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .card{
+      display: flex; 
+      flex-direction: row;
+      justify-content: space-between ;
+      /* width: 60%; */
+  
+      /* width: 1000px; */
+  
+      flex-shrink: 0;
+      border-radius: 16px;
+      background: #B2EDD3;
+      color: #282c34;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      margin-top: 3pt;
+      margin-left: 40pt;
+      margin-bottom: 20pt;
+      margin-right: 360pt;
+      padding: 10pt;
+  
+  
+  
+  
+      }
+      .align2{
+        display: flex;
+        flex-direction: row;
+    
+      }
+      .align1{
+        display: flex;
+        flex-direction: row;
+        /* align-items: end; */
+  
+  
+      }
+      .alignm{
+        display: flex;
+        flex-direction: column;
+       /* align-items: end; */
+      }
+      .market{
+        display:flex;
+        flex-direction: row;
+        width: 900px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(245, 230, 230, 0.48) 0%, rgba(217, 217, 217, 0.00) 100%);
+        background-color: #4CAF50;
+        color: #282c34;
+        margin-top: 0px; 
+        margin-left: 20px;
+        margin-bottom: 0px;
+        margin-right: 4px;
+        padding: 1px;
+        padding-top:2px;
+        padding-bottom: 5px;
+        padding-left: 28px;
+      #container { overflow: hidden; }
+      #floated-imgs { float: right; }
+      #floated-imgs img {display: block; }
+  
+      .marketheader{
+        padding-top: 10px;
+      }
+  
+  
+  
+      .graphs{
+          margin-top: 30px;
+          width: 20%;
+          height: 200px;
+          padding: 10px;
+  
+      }
+      .graph{
+        
+        height: 60px;
+      }
+  
+  
+  
+  
+  
+  
+      .appl{
+        padding-top: 40%;
+      }
+      .amzn{
+        padding-top: 115%;
+      }
+      .ibmp{
+        padding-top: 130%;
+        padding-left: 0px;
+      }
+      .msft{
+        padding-top: 100%;
+      }
+      .names{
+        display:flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        padding-bottom: 5px;
+        justify-content: start;
+        font-size: 14px;
+      
+      }
+      .apple{
+        color: #282c34;
+        padding-left: 50px;
+        padding-top: 53px;
+      }
+      }
+      
+      .amazon{
+        color: #282c34;
+        padding-left: 50px;
+        padding-top: 48px;
+      }
+      
+      .ibm{
+        color: #282c34;
+        padding-left: 50px;
+        padding-top: 53px;
+      }
+      
+      .microsoft{
+        color: #282c34;
+        padding-left: 50px;
+        padding-top: 45px;
+      }
+      
+      .numstock{
+        color: #6C757D;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: px;
+        padding-bottom: 7px;
+        padding-top: 20px;
+      }
+
+
+.count1 {
+  padding-left: 30px;
+  padding-top: 1px;
+  padding-right: 20px;
+}
+
+.count2 {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.count3 {
+  margin-top: 41px;
+  margin-left: 10px;
+}
+
+.count4 {
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.stockname {
+  color: #6C757D;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 50px;
+  padding-top: 4px;
+  padding-top: 23px;
+}
+
+.stocksvalue1 {
+  padding-left: 50px;
+  padding-top: 8px;
+}
+
+.stocksvalue2 {
+  padding-left: 50px;
+  padding-top: 45px;
+}
+
+.stocksvalue3 {
+  padding-left: 50px;
+  padding-top: 48px;
+}
+
+.stocksvalue4 {
+  padding-left: 50px;
+  padding-top: 43px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /* border-radius: 100px; */
+  /* margin-left: 50px;
+        margin-top: 69px; */
+  display: flex;
+  width: 100%;
+
+}
+
+.APPL {
+  margin-top: 35px;
+  display: flex;
+}
+
+.AMZN {
+  margin-top: 40px;
+}
+
+.IBM {
+  margin-top: 46px;
+}
+
+.MSFT {
+  margin-top: 40px;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: verdana;
+}
+
+.timecontainer {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#1b549f, #5c9ad1);
+  border-radius: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: snow;
+  /* margin-bottom: 1%; */
+  /* margin-left: 30%; */
+  /* margin: 9px;
+  padding:17px;
+  height: 130px; */
+  height: 25%;
+  
+}
+
+.timer {
+  padding-top: 0.5%;
+  padding-bottom: 0px;
+  font-size: 30px;
+  color: snow
+  
+}
+
+.timenum {
+  font-size: 100px;
+  text-align: center;
+}
+
+
+.lead {
+  padding: 5px;
+  padding-left: 140px;
+  color: snow;
+  font-size: 35px;
+}
+
+.container3 {
+  font-size: 26px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3 ol {
+  padding-left: 0px;
+  counter-reset: number;
+  color: snow;
+}
+
+.container3 li {
+  padding: 30px;
+  display: flex;
+  width: 500px;
+}
+
+.container3 li mark {
+  flex-grow: 1;
+  color: snow;
+  background-color: transparent;
+}
+
+.container3 mark:before {
+  counter-increment: number;
+  /* 遞增計數器 */
+  content: counter(number) ".";
+  /* 顯示計數器 */
+  margin-right: 40px;
+}
+
+.container3 li:nth-child(1) {
+  background: #93BFCF;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.container3 li:nth-child(2) {
+  background: #2C74B3;
+}
+
+.container3 li:nth-child(3) {
+  background: #205295;
+}
+
+.container3 li:nth-child(4) {
+  background: #144272;
+}
+
+.container3 li:nth-child(5) {
+  background: #19376D;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+
+
+
+
+
+.blur {
+ 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+
+}
